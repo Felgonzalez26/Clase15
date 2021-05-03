@@ -1,0 +1,73 @@
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+h3{
+    color: black;
+    font: size 50px;;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+td{
+    text-transform: capitalize;
+}
+li{
+    font-weight:bold;
+    color: rgb(38, 38, 49);
+    list-style: none;
+}
+label{
+    font-weight:bold;   
+}
+img{
+    width: 290px;
+    height: 290px;
+    background-position: center;
+    border-style: outset; color: blanchedalmond;
+}
+.galeria{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap ;    
+}
+.galeria li{
+    margin: 5px;
+}
+.menuUno{
+    margin-left: 434px;
+    margin-top: 0px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+}
+div ul li{
+    display: inline-block;
+}
+div ul li a{
+    color: #be9603;
+    text-decoration: none;
+    align-content: center;
+}
+footer ul li{
+    display: inline-block;
+}
+header img{
+    width: 20%;
+    margin-left: 40%;
+}
+footer ul li img a{
+    text-decoration: none;
+    width: 10px;
+    height: 10px;
+}
+#SeccionProductos{
+    display: grid;
+    grid-template-rows: 200px 200px 20  0px;
+    text-align: center;
+    font-weight: bold;
+    word-wrap: break-word;
+}
